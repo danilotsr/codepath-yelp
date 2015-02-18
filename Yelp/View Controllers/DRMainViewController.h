@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DRMainViewController.h
 //  Yelp
 //
 //  Created by Danilo Resende on 2/9/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DRMainViewController : UIViewController
 
 @end
-
