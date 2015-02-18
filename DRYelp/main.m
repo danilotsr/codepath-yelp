@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Yelp
+//  DRYelp
 //
-//  Created by Danilo Resende on 2/9/15.
+//  Created by Danilo Resende on 2/18/15.
 //  Copyright (c) 2015 CodePath. All rights reserved.
 //
 

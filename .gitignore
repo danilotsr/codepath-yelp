@@ -16,10 +16,3 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-Yelp.xcodeproj/
-Yelp.xcworkspace/
-
-# CocoaPods
-#
-Pods/
-Podfile.lock

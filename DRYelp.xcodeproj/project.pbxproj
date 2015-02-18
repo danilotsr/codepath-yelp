@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F2F47F638F77DF60660260 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E56E9ECB04B1DF80FA0345 /* libPods.a */; };
+		82E71D031A94FD5500D501AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D021A94FD5500D501AC /* main.m */; };
+		82E71D061A94FD5500D501AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D051A94FD5500D501AC /* AppDelegate.m */; };
+		82E71D091A94FD5500D501AC /* DRYelp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D071A94FD5500D501AC /* DRYelp.xcdatamodeld */; };
+		82E71D111A94FD5500D501AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E71D101A94FD5500D501AC /* Images.xcassets */; };
+		82E71D141A94FD5500D501AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E71D121A94FD5500D501AC /* LaunchScreen.xib */; };
+		82E71D201A94FD5500D501AC /* DRYelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D1F1A94FD5500D501AC /* DRYelpTests.m */; };
+		82E71D2C1A94FDC400D501AC /* YelpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D2B1A94FDC400D501AC /* YelpClient.m */; };
+		82E71D301A94FDE900D501AC /* DRBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D2F1A94FDE900D501AC /* DRBusiness.m */; };
+		82E71D341A94FE0000D501AC /* DRFilterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D331A94FE0000D501AC /* DRFilterConstants.m */; };
+		82E71D381A94FE3500D501AC /* DRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D361A94FE3500D501AC /* DRMainViewController.m */; };
+		82E71D391A94FE3500D501AC /* DRMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E71D371A94FE3500D501AC /* DRMainViewController.xib */; };
+		82E71D3E1A94FE4E00D501AC /* DRFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D3C1A94FE4E00D501AC /* DRFiltersViewController.m */; };
+		82E71D3F1A94FE4E00D501AC /* DRFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E71D3D1A94FE4E00D501AC /* DRFiltersViewController.xib */; };
+		82E71D431A94FE8B00D501AC /* DRSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D411A94FE8B00D501AC /* DRSwitchCell.m */; };
+		82E71D441A94FE8B00D501AC /* DRSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E71D421A94FE8B00D501AC /* DRSwitchCell.xib */; };
+		82E71D481A94FE9C00D501AC /* DRFilterSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D471A94FE9C00D501AC /* DRFilterSection.m */; };
+		82E71D4C1A94FEB200D501AC /* DRBusinessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71D4A1A94FEB200D501AC /* DRBusinessCell.m */; };
+		82E71D4D1A94FEB200D501AC /* DRBusinessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E71D4B1A94FEB200D501AC /* DRBusinessCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82E71D1A1A94FD5500D501AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82E71CF51A94FD5500D501AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E71CFC1A94FD5500D501AC;
+			remoteInfo = DRYelp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169E2A1435A238C78262B324 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		82E71CFD1A94FD5500D501AC /* DRYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E71D011A94FD5500D501AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E71D021A94FD5500D501AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82E71D041A94FD5500D501AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82E71D051A94FD5500D501AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82E71D081A94FD5500D501AC /* DRYelp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DRYelp.xcdatamodel; sourceTree = "<group>"; };
+		82E71D101A94FD5500D501AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82E71D131A94FD5500D501AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82E71D191A94FD5500D501AC /* DRYelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E71D1E1A94FD5500D501AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E71D1F1A94FD5500D501AC /* DRYelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRYelpTests.m; sourceTree = "<group>"; };
+		82E71D2A1A94FDC400D501AC /* YelpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpClient.h; path = API/YelpClient.h; sourceTree = "<group>"; };
+		82E71D2B1A94FDC400D501AC /* YelpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpClient.m; path = API/YelpClient.m; sourceTree = "<group>"; };
+		82E71D2E1A94FDE900D501AC /* DRBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRBusiness.h; path = Models/DRBusiness.h; sourceTree = "<group>"; };
+		82E71D2F1A94FDE900D501AC /* DRBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRBusiness.m; path = Models/DRBusiness.m; sourceTree = "<group>"; };
+		82E71D321A94FE0000D501AC /* DRFilterConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRFilterConstants.h; path = Models/DRFilterConstants.h; sourceTree = "<group>"; };
+		82E71D331A94FE0000D501AC /* DRFilterConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRFilterConstants.m; path = Models/DRFilterConstants.m; sourceTree = "<group>"; };
+		82E71D351A94FE3500D501AC /* DRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRMainViewController.h; path = "View Controllers/DRMainViewController.h"; sourceTree = "<group>"; };
+		82E71D361A94FE3500D501AC /* DRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRMainViewController.m; path = "View Controllers/DRMainViewController.m"; sourceTree = "<group>"; };
+		82E71D371A94FE3500D501AC /* DRMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DRMainViewController.xib; path = "View Controllers/DRMainViewController.xib"; sourceTree = "<group>"; };
+		82E71D3B1A94FE4E00D501AC /* DRFiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRFiltersViewController.h; path = "View Controllers/DRFiltersViewController.h"; sourceTree = "<group>"; };
+		82E71D3C1A94FE4E00D501AC /* DRFiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRFiltersViewController.m; path = "View Controllers/DRFiltersViewController.m"; sourceTree = "<group>"; };
+		82E71D3D1A94FE4E00D501AC /* DRFiltersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DRFiltersViewController.xib; path = "View Controllers/DRFiltersViewController.xib"; sourceTree = "<group>"; };
+		82E71D401A94FE8B00D501AC /* DRSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRSwitchCell.h; path = Views/DRSwitchCell.h; sourceTree = "<group>"; };
+		82E71D411A94FE8B00D501AC /* DRSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRSwitchCell.m; path = Views/DRSwitchCell.m; sourceTree = "<group>"; };
+		82E71D421A94FE8B00D501AC /* DRSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DRSwitchCell.xib; path = Views/DRSwitchCell.xib; sourceTree = "<group>"; };
+		82E71D461A94FE9C00D501AC /* DRFilterSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRFilterSection.h; path = Views/DRFilterSection.h; sourceTree = "<group>"; };
+		82E71D471A94FE9C00D501AC /* DRFilterSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRFilterSection.m; path = Views/DRFilterSection.m; sourceTree = "<group>"; };
+		82E71D491A94FEB200D501AC /* DRBusinessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRBusinessCell.h; path = Views/DRBusinessCell.h; sourceTree = "<group>"; };
+		82E71D4A1A94FEB200D501AC /* DRBusinessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRBusinessCell.m; path = Views/DRBusinessCell.m; sourceTree = "<group>"; };
+		82E71D4B1A94FEB200D501AC /* DRBusinessCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DRBusinessCell.xib; path = Views/DRBusinessCell.xib; sourceTree = "<group>"; };
+		C3E56E9ECB04B1DF80FA0345 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDA8496C40218E63B541B76 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E71CFA1A94FD5500D501AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2F47F638F77DF60660260 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E71D161A94FD5500D501AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82E71CF41A94FD5500D501AC = {
+			isa = PBXGroup;
+			children = (
+				82E71CFF1A94FD5500D501AC /* DRYelp */,
+				82E71D1C1A94FD5500D501AC /* DRYelpTests */,
+				82E71CFE1A94FD5500D501AC /* Products */,
+				C280AE80176A8BAA4A0777B3 /* Pods */,
+				D6813009E351195712EC80E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82E71CFE1A94FD5500D501AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E71CFD1A94FD5500D501AC /* DRYelp.app */,
+				82E71D191A94FD5500D501AC /* DRYelpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E71CFF1A94FD5500D501AC /* DRYelp */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D041A94FD5500D501AC /* AppDelegate.h */,
+				82E71D051A94FD5500D501AC /* AppDelegate.m */,
+				82E71D101A94FD5500D501AC /* Images.xcassets */,
+				82E71D121A94FD5500D501AC /* LaunchScreen.xib */,
+				82E71D071A94FD5500D501AC /* DRYelp.xcdatamodeld */,
+				82E71D001A94FD5500D501AC /* Supporting Files */,
+				82E71D2D1A94FDCD00D501AC /* API */,
+				82E71D311A94FDEC00D501AC /* Models */,
+				82E71D3A1A94FE3800D501AC /* View Controllers */,
+				82E71D451A94FE8E00D501AC /* Views */,
+			);
+			path = DRYelp;
+			sourceTree = "<group>";
+		};
+		82E71D001A94FD5500D501AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D011A94FD5500D501AC /* Info.plist */,
+				82E71D021A94FD5500D501AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82E71D1C1A94FD5500D501AC /* DRYelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D1F1A94FD5500D501AC /* DRYelpTests.m */,
+				82E71D1D1A94FD5500D501AC /* Supporting Files */,
+			);
+			path = DRYelpTests;
+			sourceTree = "<group>";
+		};
+		82E71D1D1A94FD5500D501AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D1E1A94FD5500D501AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82E71D2D1A94FDCD00D501AC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D2A1A94FDC400D501AC /* YelpClient.h */,
+				82E71D2B1A94FDC400D501AC /* YelpClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		82E71D311A94FDEC00D501AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D2E1A94FDE900D501AC /* DRBusiness.h */,
+				82E71D2F1A94FDE900D501AC /* DRBusiness.m */,
+				82E71D321A94FE0000D501AC /* DRFilterConstants.h */,
+				82E71D331A94FE0000D501AC /* DRFilterConstants.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		82E71D3A1A94FE3800D501AC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D351A94FE3500D501AC /* DRMainViewController.h */,
+				82E71D361A94FE3500D501AC /* DRMainViewController.m */,
+				82E71D371A94FE3500D501AC /* DRMainViewController.xib */,
+				82E71D3B1A94FE4E00D501AC /* DRFiltersViewController.h */,
+				82E71D3C1A94FE4E00D501AC /* DRFiltersViewController.m */,
+				82E71D3D1A94FE4E00D501AC /* DRFiltersViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		82E71D451A94FE8E00D501AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82E71D401A94FE8B00D501AC /* DRSwitchCell.h */,
+				82E71D411A94FE8B00D501AC /* DRSwitchCell.m */,
+				82E71D421A94FE8B00D501AC /* DRSwitchCell.xib */,
+				82E71D461A94FE9C00D501AC /* DRFilterSection.h */,
+				82E71D471A94FE9C00D501AC /* DRFilterSection.m */,
+				82E71D491A94FEB200D501AC /* DRBusinessCell.h */,
+				82E71D4A1A94FEB200D501AC /* DRBusinessCell.m */,
+				82E71D4B1A94FEB200D501AC /* DRBusinessCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C280AE80176A8BAA4A0777B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFDA8496C40218E63B541B76 /* Pods.debug.xcconfig */,
+				169E2A1435A238C78262B324 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6813009E351195712EC80E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E56E9ECB04B1DF80FA0345 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E71CFC1A94FD5500D501AC /* DRYelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E71D231A94FD5500D501AC /* Build configuration list for PBXNativeTarget "DRYelp" */;
+			buildPhases = (
+				A20F1BF66F22852A89DB8546 /* Check Pods Manifest.lock */,
+				82E71CF91A94FD5500D501AC /* Sources */,
+				82E71CFA1A94FD5500D501AC /* Frameworks */,
+				82E71CFB1A94FD5500D501AC /* Resources */,
+				35BFCE3FD2E0188DA55C3405 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRYelp;
+			productName = DRYelp;
+			productReference = 82E71CFD1A94FD5500D501AC /* DRYelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82E71D181A94FD5500D501AC /* DRYelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E71D261A94FD5500D501AC /* Build configuration list for PBXNativeTarget "DRYelpTests" */;
+			buildPhases = (
+				82E71D151A94FD5500D501AC /* Sources */,
+				82E71D161A94FD5500D501AC /* Frameworks */,
+				82E71D171A94FD5500D501AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E71D1B1A94FD5500D501AC /* PBXTargetDependency */,
+			);
+			name = DRYelpTests;
+			productName = DRYelpTests;
+			productReference = 82E71D191A94FD5500D501AC /* DRYelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E71CF51A94FD5500D501AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CodePath;
+				TargetAttributes = {
+					82E71CFC1A94FD5500D501AC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					82E71D181A94FD5500D501AC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 82E71CFC1A94FD5500D501AC;
+					};
+				};
+			};
+			buildConfigurationList = 82E71CF81A94FD5500D501AC /* Build configuration list for PBXProject "DRYelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82E71CF41A94FD5500D501AC;
+			productRefGroup = 82E71CFE1A94FD5500D501AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E71CFC1A94FD5500D501AC /* DRYelp */,
+				82E71D181A94FD5500D501AC /* DRYelpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E71CFB1A94FD5500D501AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E71D141A94FD5500D501AC /* LaunchScreen.xib in Resources */,
+				82E71D4D1A94FEB200D501AC /* DRBusinessCell.xib in Resources */,
+				82E71D391A94FE3500D501AC /* DRMainViewController.xib in Resources */,
+				82E71D3F1A94FE4E00D501AC /* DRFiltersViewController.xib in Resources */,
+				82E71D111A94FD5500D501AC /* Images.xcassets in Resources */,
+				82E71D441A94FE8B00D501AC /* DRSwitchCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E71D171A94FD5500D501AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35BFCE3FD2E0188DA55C3405 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20F1BF66F22852A89DB8546 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E71CF91A94FD5500D501AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E71D4C1A94FEB200D501AC /* DRBusinessCell.m in Sources */,
+				82E71D301A94FDE900D501AC /* DRBusiness.m in Sources */,
+				82E71D2C1A94FDC400D501AC /* YelpClient.m in Sources */,
+				82E71D3E1A94FE4E00D501AC /* DRFiltersViewController.m in Sources */,
+				82E71D381A94FE3500D501AC /* DRMainViewController.m in Sources */,
+				82E71D431A94FE8B00D501AC /* DRSwitchCell.m in Sources */,
+				82E71D481A94FE9C00D501AC /* DRFilterSection.m in Sources */,
+				82E71D091A94FD5500D501AC /* DRYelp.xcdatamodeld in Sources */,
+				82E71D341A94FE0000D501AC /* DRFilterConstants.m in Sources */,
+				82E71D061A94FD5500D501AC /* AppDelegate.m in Sources */,
+				82E71D031A94FD5500D501AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E71D151A94FD5500D501AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E71D201A94FD5500D501AC /* DRYelpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82E71D1B1A94FD5500D501AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82E71CFC1A94FD5500D501AC /* DRYelp */;
+			targetProxy = 82E71D1A1A94FD5500D501AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82E71D121A94FD5500D501AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E71D131A94FD5500D501AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82E71D211A94FD5500D501AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82E71D221A94FD5500D501AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82E71D241A94FD5500D501AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDA8496C40218E63B541B76 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DRYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82E71D251A94FD5500D501AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169E2A1435A238C78262B324 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DRYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82E71D271A94FD5500D501AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DRYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DRYelp.app/DRYelp";
+			};
+			name = Debug;
+		};
+		82E71D281A94FD5500D501AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DRYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DRYelp.app/DRYelp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E71CF81A94FD5500D501AC /* Build configuration list for PBXProject "DRYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E71D211A94FD5500D501AC /* Debug */,
+				82E71D221A94FD5500D501AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E71D231A94FD5500D501AC /* Build configuration list for PBXNativeTarget "DRYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E71D241A94FD5500D501AC /* Debug */,
+				82E71D251A94FD5500D501AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E71D261A94FD5500D501AC /* Build configuration list for PBXNativeTarget "DRYelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E71D271A94FD5500D501AC /* Debug */,
+				82E71D281A94FD5500D501AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82E71D071A94FD5500D501AC /* DRYelp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82E71D081A94FD5500D501AC /* DRYelp.xcdatamodel */,
+			);
+			currentVersion = 82E71D081A94FD5500D501AC /* DRYelp.xcdatamodel */;
+			path = DRYelp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 82E71CF51A94FD5500D501AC /* Project object */;
+}
